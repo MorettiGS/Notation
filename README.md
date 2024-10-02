@@ -1,6 +1,3 @@
 # Notation
 
 ola
-
-
-bich
