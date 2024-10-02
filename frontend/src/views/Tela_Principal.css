@@ -1,0 +1,47 @@
+.Tela {
+    user-select: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom left, #161616, #272727);
+    height: fit-content;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Logo {
+    margin-top: 10px;
+    margin-bottom: -30px;
+    height: 40%;
+    width: 40%;
+}
+
+.Title {
+    font-size:4.3rem;
+}
+
+.Sep {
+    font-size: 4rem;
+    margin: 100px;
+}
+
+.Tela button {
+    border-width: 1px;
+    border-color: #979797;
+    background-color: #737373;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: Rubik-Bold;
+    color: #060014;
+}
+
+.Tela button:active {
+    border: none;
+    background-color: #4b4b4b;
+}

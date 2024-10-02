@@ -3,19 +3,23 @@
   src: url(./fontes/RobotoMono-Thin.ttf);
 }
 
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url(./fontes/Rubik-Bold.ttf);
+}
+
 *{
   font-family: 'RobotoMono';
 }
 
 body {
   display: flex;
-  height: 98vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 
   color: #fff;
-  /*background: linear-gradient(to right, #0F2027, #203A43, #2C5364);*/
-  /* background: linear-gradient(to right, #c31432, #240b36); */
+  /* background: linear-gradient(to top right, #0F2027, #203A43, #2C5364); */
   background: linear-gradient(to top right, #000000, #414141);
 }
