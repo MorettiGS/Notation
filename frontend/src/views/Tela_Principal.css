@@ -6,7 +6,7 @@
     width: 500px;
     padding: 10px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .Logo {
@@ -20,12 +20,8 @@
     font-size:4.3rem;
 }
 
-.Sep {
-    font-size: 4rem;
-    margin: 100px;
-}
-
 .Tela button {
+    box-shadow: 2px 2px 0 2px #4b4b4b;
     border-width: 1px;
     border-color: #979797;
     background-color: #737373;
@@ -38,7 +34,8 @@
     border-radius: 10px;
     font-size: 1.5rem;
     font-family: Rubik-Bold;
-    color: #060014;
+    /* color: #060014; */
+    color: white;
 }
 
 .Tela button:active {
