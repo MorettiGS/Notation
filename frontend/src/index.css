@@ -14,10 +14,12 @@
 
 body {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: scroll;
+
   justify-content: center;
   align-items: center;
-  justify-content: center;
+  text-align: center;
 
   color: #fff;
   /* background: linear-gradient(to top right, #0F2027, #203A43, #2C5364); */

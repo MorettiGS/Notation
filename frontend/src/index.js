@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 
-import Tela_Principal from './views/Tela_Principal';
+import MainRoutes from './Routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Tela_Principal/>
-  </React.StrictMode>
+    <BrowserRouter>
+      <MainRoutes/>
+    </BrowserRouter>
 );

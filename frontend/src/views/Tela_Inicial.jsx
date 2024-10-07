@@ -1,8 +1,9 @@
-import React, {Component} from "react";
-import './Tela_Principal.css'
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import './Tela_Inicial.css'
 import NotesLogoPlaceholder from '../fontes/NotesLogoPlaceholder.png'
 
-class Tela_Principal extends Component{
+class Tela_Inicial extends Component{
     
     render() {
         return (
@@ -13,13 +14,13 @@ class Tela_Principal extends Component{
 
                     <h2>Notes for your everyday life.</h2>
 
-                    <button className="Butoes">Login</button>
+                    <Link to="/Error"><button className="Butoes">Login</button></Link>
 
-                    <button className="Butoes">Sign up</button>
+                    <Link to="/Error"><button className="Butoes">Sign up</button></Link>
                 </div>
         )
     }
 
 }
 
-export default Tela_Principal
+export default Tela_Inicial
